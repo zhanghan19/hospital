@@ -19,6 +19,7 @@
   ssh-keygen -t rsa -C "zhanhan321@126.com" // 生成公钥和私钥
   // id_rsa(私钥)  id_rsa.pub(公钥)
   ssh -T git@github.com  // 测试远程连接
+  git push -u origin master  // 推送到github
   
   ```
 
