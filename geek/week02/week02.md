@@ -305,6 +305,23 @@
   - Special Object
   
     - Array
+    
+      | 基本类型 | 基础功能和数据结构 | 错误类型       | 二进制操作        | 带类型的数组      |
+      | -------- | ------------------ | -------------- | ----------------- | ----------------- |
+      | Boolean  | Array              | Error          | ArrayBuffer       | Float32Array      |
+      | String   | Date               | EvalError      | SharedArrayBuffer | Float64Array      |
+      | Number   | RegExp             | RanfeError     | DataView          | Int8Array         |
+      | Symbol   | Promise            | ReferenceError |                   | Int16Array        |
+      | Object   | Proxy              | SyntaxError    |                   | Int32Array        |
+      |          | Map                | TypeError      |                   | UInt8Array        |
+      |          | WeakMap            | URIError       |                   | UInt16Array       |
+      |          | Set                |                |                   | UInt32Array       |
+      |          | WeakSet            |                |                   | UInt8ClampedArray |
+      |          | Function           |                |                   |                   |
+    
+      
+  
+  
 
 
 ​    
